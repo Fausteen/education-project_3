@@ -150,6 +150,47 @@ a:active {
 
 /* === SERVICES === */
 
+.service-items {
+    height: 832px;
+    width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 60px 24px;
+}
+
+.service-item {
+    position: relative;
+    width: 416px;
+    height: 386px;
+}
+
+.background-item-border {
+    width: 396px;
+    height: 300px;
+    border: 1px solid #CDAA7D;
+    position: absolute;
+    left: 20px;
+    z-index: -1;
+    opacity: .5;
+}
+
+.service-item-img {
+    width: 396px;
+    height: 300px;
+    position: absolute;
+    top: 20px;
+}
+
+.service-name {
+    position: absolute;
+    bottom: 0;
+    font-family: 'Garamond';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+}
+
  /* === COSMETICS === */
 
  /* === OUR WORK === */
