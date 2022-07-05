@@ -14,7 +14,6 @@ body {
 
 .wrapper-outer {
     width: 100%;
-    height: 500px;
 }
 
 .wrapper-inner {
@@ -68,6 +67,10 @@ a:active {
  .main-menu-left>li {
     margin-right: 80px;
  }
+ .section-header{
+    position: absolute;
+ }
+
 
  .section-header .wrapper-inner {
     border-bottom: 1px solid #FFFFFF;
@@ -98,9 +101,38 @@ a:active {
 
  /* === FIRST SCREEN === */
 
- /* === RIGHT MENU ===  */
+.section-first-screen .wrapper-inner {
+    height: 1083px;
+    width: 1920px;
+    position: relative;
+    z-index: -2;
+}
+
+.first-screen-img {
+    position: absolute;
+    object-fit: cover;
+    z-index: -3;
+}
+
+.first-screen-text {
+    width: 520px;
+    height: 620px;
+    z-index: -1;
+    text-align: center;
+    font-family: 'Garamond';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    margin: auto auto;
+    padding-top: 360px;
+}
 
  /* === TEXT === */
+
+ .section-text .wrapper-inner {
+    margin-top: 120px;
+    margin-bottom: 95px;
+ }
 
 /* === SERVICES === */
 
