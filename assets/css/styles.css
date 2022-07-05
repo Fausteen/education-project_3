@@ -30,12 +30,14 @@ a {
 
 a:hover {
     color: #CDAA7D;
-    text-decoration: underline;
+    border-bottom: 1px solid #CDAA7D;
+    padding-bottom: 1px;
 }
 
 a:active {
     color: #80561f;
-    text-decoration: underline;
+    border-bottom: 1px solid #80561f;
+    padding-bottom: 1px;
 }
 
  /* === HEADER === */
@@ -84,6 +86,7 @@ a:active {
 
  .header-inst:hover {
     transform: scale(1.2);
+    border-bottom: none;
  }
 
 
@@ -93,6 +96,7 @@ a:active {
 
  .header-logo:hover {
     transform: scale(1.2);
+    border-bottom: none;
  }
 
  .header-button {
@@ -103,7 +107,7 @@ a:active {
 
 .section-first-screen .wrapper-inner {
     height: 1083px;
-    width: 1920px;
+    width: 100%;
     position: relative;
     z-index: -2;
 }
@@ -112,6 +116,8 @@ a:active {
     position: absolute;
     object-fit: cover;
     z-index: -3;
+    width: 100vw;
+    height: 1083px;
 }
 
 .first-screen-text {
