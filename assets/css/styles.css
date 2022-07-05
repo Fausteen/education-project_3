@@ -134,6 +134,20 @@ a:active {
     margin-bottom: 95px;
  }
 
+ .container-text {
+    width: 856px;
+    height: 385px;
+    font-family: 'Cormorant Garamond';
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 130%;
+    text-align: center;
+ }
+
+.text-img {
+    margin-bottom: 60px;
+}
+
 /* === SERVICES === */
 
  /* === COSMETICS === */
