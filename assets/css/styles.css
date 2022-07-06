@@ -199,6 +199,20 @@ a:active {
 
  /* === COSMETICS === */
 
+ .section-cosmetics .wrapper-inner {
+    display: flex;
+    height: 144px;
+    margin: 150px auto;
+ }
+
+ .cosmetic-item {
+    margin-right: 24px;
+ }
+
+ .cosmetic-item:last-child {
+    margin-right: none;
+ }
+
  /* === OUR WORK === */
 
  /* === FOOTER ===  */
