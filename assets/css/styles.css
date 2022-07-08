@@ -70,6 +70,7 @@ a:active {
  }
  .section-header{
     position: absolute;
+    z-index: 2;
  }
 
 
@@ -100,6 +101,12 @@ a:active {
 
  .header-button {
     margin-left: 40px;
+ }
+
+
+ .section-header1 .wrapper-inner {
+   border-bottom: 1px solid #FFFFFF;
+    height: 100px;
  }
 
  /* === FIRST SCREEN === */
@@ -248,15 +255,79 @@ a:active {
     gap: 24px;
 }
 
+
+/* === MASTERS ===  */
+
+.section-masters {
+   margin-top: 80px;
+   height: 1390px;
+}
+
+.masters-h2 {
+   text-align: center;
+   font-family: 'Garamond';
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 120%;
+   margin-bottom: 80px;
+}
+
+
+.masters {
+   height: 1250px;
+   width: 1300px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   gap: 60px 24px;
+}
+
+.master-item {
+   position: relative;
+   width: 416px;
+   height: 595px;
+}
+
+.masters-item-border {
+   width: 400px;
+   height: 477px;
+   border: 1px solid #CDAA7D;
+   position: absolute;
+   left: 20px;
+   z-index: -1;
+   opacity: .5;
+}
+
+.masters-item-img {
+   width: 400px;
+   height: 477px;
+   position: absolute;
+   top: 20px;
+}
+
+.master-name {
+   position: absolute;
+   bottom: 33px;
+   font-family: 'Cormorant Garamond';
+   font-weight: 700;
+   font-size: 27px;
+   line-height: 130%;
+}
+
+.master-specialization {
+   position: absolute;
+   bottom: 0;
+   font-family: 'Cormorant Garamond';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 130%;
+}
+
  /* === FOOTER ===  */
  
  .section-footer {
     margin: 100px auto 80px auto;
     width: 1300px;
-    
-    
-    
-    
  }
 
  .footer-container {
@@ -336,3 +407,5 @@ a:active {
    text-align: center;
    opacity: 0.5;
  }
+
+
