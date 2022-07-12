@@ -323,6 +323,75 @@ a:active {
    line-height: 130%;
 }
 
+
+/* === PRICELIST === */
+
+.section-pricelist {
+   margin-top: 80px;
+   margin-bottom: 100px;
+}
+
+.price-h2 {
+   text-align: center;
+   font-family: 'Garamond';
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 120%;
+   margin-bottom: 80px;
+}
+
+.price-block1 {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   column-gap: 134px;
+   margin-bottom: 80px;
+}
+
+.price-block2 {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   column-gap: 134px;
+   margin-bottom: 80px;
+}
+
+.price-texts {
+   margin: 32px 0;
+}
+
+.price-text-item {
+   width: 526px;
+   height: 88px;
+   border-bottom: 1px solid #888888;
+   margin-bottom: 40px;
+}
+
+.price-name {
+   width: 416px;
+   font-family: 'Cormorant Garamond';
+   font-weight: 700;
+   font-size: 27px;
+   line-height: 130%;
+   margin-right: 255px;
+}
+
+.price-num {
+   font-family: 'Cormorant Garamond';
+   font-weight: 700;
+   font-size: 27px;
+   line-height: 130%;
+}
+
+
+.price-description {
+   margin-top: 10px;
+   margin-bottom: 20px;
+   font-family: 'Cormorant Garamond';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 130%;
+}
+
+
  /* === FOOTER ===  */
  
  .section-footer {
@@ -335,9 +404,8 @@ a:active {
     display: grid;
     grid-template-columns: 60px 297px 176px 170px;
     column-gap: 190px;
-    border-top: 1px solid #FFFFFF;
-    border-bottom: 1px solid #FFFFFF;
-    /* opacity: 0.5; */
+    border-top: 1px solid #888888;
+    border-bottom: 1px solid #888888;
     
  }
 
